@@ -1,0 +1,13 @@
+{
+	"name": "html5-game-examples",
+	"version": "1.0.0",
+	"description": "HTML5 game experiments",
+	"scripts": {
+		"game1": "browser-sync start --server game_1/ --files game_1/"
+	},
+	"author": "Kris Walker (www.kixx.name)",
+	"license": "MIT",
+	"dependencies": {
+		"browser-sync": "^2.18.12"
+	}
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Game 1</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="css/normalize.css">
+		<style type="text/css">
+		body {
+			padding: 1em;
+		}
+		#game-board {
+			position: relative;
+			margin-top: 2em;
+			min-height: 800px;
+		}
+		#bb8 {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		#space {
+			background-color: orange;
+		}
+		</style>
+	</head>
+	<body>
+		<h2>Move BB8</h2>
+		<p id="messages">Messages ...</p>
+		<p>A Space:</p>
+		<p id="space"></p>
+
+		<div id="game-board">
+			<div id="bb8">
+				<img src="images/bb8.png">
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
